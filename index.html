@@ -638,7 +638,7 @@
             <nav class="header-nav">
                 <a href="#data-collected">Data Collected</a>
                 <a href="#purpose">Purpose</a>
-                <a href="#location-firebase">Location & Firebase</a>
+                <a href="#location-firebase">Firebase & Analytics</a>
                 <a href="#admob">AdMob Ads</a>
                 <a href="sponsor.html" class="nav-sponsor">📢 Sponsor Policy</a>
                 <a href="#dpdp-rights">Your Rights</a>
@@ -656,7 +656,7 @@
                 The <strong>"KhetMajur"</strong> application is a trusted platform designed to provide transparent, direct connections between farmers and agricultural laborers. We strictly adhere to the Government of India's <strong>Digital Personal Data Protection Act, 2023 (DPDP Act)</strong>, the Information Technology Act, 2000, and Google Play Console Developer Program Policies.
             </p>
             <div class="hero-meta">
-                <span>📅 Last Updated: October 27, 2026</span>
+                <span>📅 Last Updated: October 29, 2026</span>
                 <span>•</span>
                 <span>⚖️ Jurisdiction: Gujarat, India</span>
                 <span>•</span>
@@ -679,8 +679,8 @@
         </div>
         <div class="principle-card">
             <div class="p-icon">☁️</div>
-            <h3>Google Firebase Protection</h3>
-            <p>All mobile OTP authentications and database transactions are processed through Google Cloud Firebase's enterprise-grade secure servers.</p>
+            <h3>Google Firebase & Analytics</h3>
+            <p>All mobile OTP authentications, database transactions, and anonymous performance analytics are processed through Google Cloud Firebase's secure servers.</p>
         </div>
         <div class="principle-card">
             <div class="p-icon">🗑️</div>
@@ -742,6 +742,18 @@
                             <td>Connecting farm workers with immediate agricultural employment opportunities</td>
                             <td>Cloud Firestore</td>
                         </tr>
+                        <tr>
+                            <td><strong>App Activity & Usage Analytics</strong></td>
+                            <td>App open events, screen navigations, user engagement (e.g. jobs viewed or posted, worker/farmer role), crash and error telemetry</td>
+                            <td>Monitoring application stability, resolving technical glitches, improving user experience for farmers and laborers, and verifying testing benchmarks</td>
+                            <td>Google Firebase Analytics (Encrypted / Anonymized)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Device & Technical Identifiers</strong></td>
+                            <td>Anonymized Device/Tester ID, OS version, device model, Firebase app instance ID</td>
+                            <td>Ensuring app performance, hardware compatibility, and secure session management</td>
+                            <td>Google Firebase Analytics</td>
+                        </tr>
                     </tbody>
                 </table>
             </div>
@@ -760,6 +772,7 @@
                 <li><strong>Local Agricultural Employment:</strong> Connecting farmers with skilled workers in their district and helping laborers find timely farm jobs nearby.</li>
                 <li><strong>Live Mandi Commodity Rates:</strong> Providing transparent, up-to-date commodity market prices across major APMC yards in Gujarat.</li>
                 <li><strong>Instant Push Notifications:</strong> Delivering alerts to nearby laborers when a farmer posts a new agricultural work requirement.</li>
+                <li><strong>Performance Monitoring & Analytics:</strong> Tracking application reliability, diagnosing crashes, evaluating engagement trends, and verifying test releases using Google Firebase Analytics.</li>
             </ul>
         </article>
 
@@ -767,7 +780,7 @@
         <article id="location-firebase" class="policy-card">
             <div class="card-title">
                 <span class="num-badge">3</span>
-                <h2>Location Data & Google Firebase Integration</h2>
+                <h2>Location Data, Google Firebase & Analytics Integration</h2>
             </div>
             <div class="info-callout">
                 <h4>📍 Location Privacy Commitment:</h4>
@@ -780,6 +793,19 @@
                 <p>
                     KhetMajur integrates Google Firebase services (Firebase Authentication, Cloud Firestore Database, and Firebase Cloud Messaging). All data in transit and at rest is protected using industry-standard TLS encryption and AES-256 cloud security protocols.
                 </p>
+            </div>
+            <div class="info-callout blue" style="margin-top: 14px; border-left: 4px solid #0284C7;">
+                <h4>📊 Google Firebase Analytics & Diagnostics:</h4>
+                <p style="margin-bottom: 8px;">
+                    We utilize <strong>Google Firebase Analytics</strong> (provided by Google LLC) to analyze how users interact with the KhetMajur application and maintain high stability across various Android devices:
+                </p>
+                <ul class="bullet-list" style="margin-top: 6px; margin-bottom: 8px; padding-left: 20px;">
+                    <li><strong>Metrics Tracked:</strong> Screen navigation flow (via Firebase Analytics Observer), session frequency, daily active usage, app open timestamps, feature interactions (e.g., job postings, job applications, mandi rate lookups), role classification (Farmer or Agricultural Worker), and crash/stability logs.</li>
+                    <li><strong>Device Diagnostics:</strong> Anonymized device/tester identifier, operating system version, device manufacturer, and Firebase installation ID.</li>
+                    <li><strong>Strict Non-Commercial Use:</strong> We strictly do <strong>not</strong> sell, rent, or trade your analytics data to third-party data brokers or marketing firms. Data is analyzed strictly in aggregate to enhance app functionality and user experience.</li>
+                    <li><strong>Privacy & Security Standards:</strong> All analytics telemetry is transmitted via secure TLS encryption. Data processing conforms to Google's privacy protocols and India's DPDP Act, 2023.</li>
+                    <li><strong>Third-Party Policy Reference:</strong> To learn more about how Google safeguards analytics telemetry, please refer to the <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer" style="color: #0369A1; font-weight: 700; text-decoration: underline;">Google Privacy Policy</a> and <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener noreferrer" style="color: #0369A1; font-weight: 700; text-decoration: underline;">Firebase Data & Privacy Guidelines</a>.</li>
+                </ul>
             </div>
         </article>
 
