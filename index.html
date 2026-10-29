@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
     <title>Privacy Policy & Data Protection | KhetMajur - DPDP Act 2023 Compliant</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="apple-touch-icon" href="app-icon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -100,14 +102,23 @@
         .logo-box {
             width: 44px;
             height: 44px;
-            background: var(--primary-soft);
-            border: 1.5px solid var(--primary);
+            background: transparent;
+            border: 1.5px solid #10B981;
             border-radius: 12px;
             display: flex;
             align-items: center;
             justify-content: center;
-            font-size: 22px;
             flex-shrink: 0;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+        }
+
+        .logo-box img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 10px;
+            display: block;
         }
 
         .brand h1 {
@@ -629,7 +640,9 @@
     <header class="main-header">
         <div class="container header-content">
             <div class="brand">
-                <div class="logo-box">🌾</div>
+                <div class="logo-box">
+                    <img src="app-icon.png" alt="KhetMajur App Icon">
+                </div>
                 <div>
                     <h1>KhetMajur <span class="tag">Farm & Labor Platform</span></h1>
                     <p class="operated-by">Operated by <strong>Klynixes LLP</strong></p>
@@ -944,7 +957,10 @@
     <footer class="main-footer">
         <div class="container footer-content">
             <div class="footer-left">
-                <h3>🌾 KhetMajur</h3>
+                <h3 style="display: flex; align-items: center; gap: 10px;">
+                    <img src="app-icon.png" alt="KhetMajur App Icon" style="width: 28px; height: 28px; border-radius: 8px; object-fit: cover; box-shadow: 0 2px 6px rgba(0,0,0,0.25);">
+                    KhetMajur
+                </h3>
                 <p>100% free and secure agricultural labor & farm networking platform.</p>
                 <p class="copyright">© 2026 Klynixes LLP. All Rights Reserved. • Designed for Farmers & Agricultural Laborers.</p>
             </div>
